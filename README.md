@@ -1,6 +1,6 @@
 
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>NAME : JEEVA K</H3>
+<H3>REGISTER NO : 212223230090</H3>
 <H3>EX. NO.4</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
@@ -116,7 +116,9 @@ Normalize our dataset.
 
 ## Program:
 
-```
+<H3 ALIGN =CENTER>MLP Classifier for Iris Dataset without Label Encoding</H3>
+
+```python
 
 import pandas as pd
 import sklearn
@@ -154,7 +156,9 @@ print(classification_report(y_test,predictions))
 
 ```
 
-```
+<H3 ALIGN =CENTER>MLP Classifier for Iris Dataset with Label Encoding</H3>
+
+```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -187,8 +191,24 @@ print(classification_report(testing_b,predicted_values))
 ```
 ## Output:
 
+<H3 ALIGN =CENTER>MLP Classifier for Iris Dataset without Label Encoding</H3>
 
+### Prediction :
+![alt text](<Screenshot 2026-03-14 100514.png>)
 
+### Confusion Matrix :
+![alt text](<Screenshot 2026-03-14 105604.png>)
+
+### Classification Report :
+![alt text](<Screenshot 2026-03-14 110341.png>)
+
+<H3 ALIGN =CENTER>MLP Classifier for Iris Dataset with Label Encoding</H3>
+
+### Confusion Matrix :
+![alt text](<Screenshot 2026-03-14 110348.png>)
+
+### Classification Report :
+![alt text](<Screenshot 2026-03-14 110354.png>)
 
 <H3>Result:</H3>
 Thus, MLP is implemented for multi-classification using python.
